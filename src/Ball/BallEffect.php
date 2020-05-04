@@ -33,7 +33,7 @@ class BallEffect extends PluginBase implements Listener
         $item = $event->getItem();
         if($item->getId() == Item::RABBIT_HIDE{
 
-            $eff = new EffectInstance(Effect::getEffect(Effect::HASTE), 100 * 99999, 2, true);
+            $eff = new EffectInstance(Effect::getEffect(Effect::HASTE), 100 * 99999, 3, true);
             $player->addEffect($eff);
 
    } else if (($player->hasEffect(Effect::LEVITATION) and (!$item->getId() == Item::RABBIT_HIDE){
