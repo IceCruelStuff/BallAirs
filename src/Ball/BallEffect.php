@@ -2,6 +2,7 @@
   
 namespace Ball;
 
+//MineralMc New Version plugin for best results ;)
 use pocketmine\event\Listener;
 use pocketmine\Server;
 use pocketmine\plugin\PluginBase;
