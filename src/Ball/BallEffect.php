@@ -1,9 +1,9 @@
 <?php
   
-namespace Mineral-Mc;
+namespace Ball;
 
+//MineralMc New Version plugin for best results ;)
 use pocketmine\event\Listener;
-
 use pocketmine\Server;
 use pocketmine\plugin\PluginBase;
 use pocketmine\Player;
@@ -30,12 +30,12 @@ class BallEffect extends PluginBase implements Listener{
 {
         $player = $event->getPlayer();
         $item = $event->getItem();
-        if($item->getId() == Item::RABBIT_HIDE{
+        if($item->getId() == Item::RABBIT_HIDE){
 
             $eff = new EffectInstance(Effect::getEffect(Effect::HASTE), 100 * 99999, 3, true);
             $player->addEffect($eff);
 
-   } else if (($player->hasEffect(Effect::LEVITATION) and (!$item->getId() == Item::RABBIT_HIDE){
+   } else if ($player->hasEffect(Effect::LEVITATION) and (!$item->getId() == Item::RABBIT_HIDE)){
 
     $player->removeEffect(25);
    
