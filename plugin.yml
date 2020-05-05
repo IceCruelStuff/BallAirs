@@ -1,7 +1,6 @@
-name: BallAir
+name: BallAirs
 author: MineralMc
 main: Ball\BallEffect
-version: 1.0
-api: 3.0.0
-description: L'item Rabbit_Hide vous donnera un effect de lévitation pour vous envolez dans les SkyBase ! 
+version: 1.5
+api: 3.12.0 
 
