@@ -1,6 +1,6 @@
 <?php
   
-namespace Mineral-Mc;
+namespace Ball;
 
 use pocketmine\event\Listener;
 
