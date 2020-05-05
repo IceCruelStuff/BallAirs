@@ -3,7 +3,6 @@
 namespace Ball;
 
 use pocketmine\event\Listener;
-
 use pocketmine\Server;
 use pocketmine\plugin\PluginBase;
 use pocketmine\Player;
