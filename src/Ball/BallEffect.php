@@ -17,8 +17,7 @@ use pocketmine\entity\Entity;
 use pocketmine\event\player\PlayerQuitEvent;
 use pocketmine\event\entity\EntityDamageEvent;
 
-class BallEffect extends PluginBase implements Listener
-{
+class BallEffect extends PluginBase implements Listener{
 
     public function onEnable()
     {
