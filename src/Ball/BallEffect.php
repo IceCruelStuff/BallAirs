@@ -68,7 +68,7 @@ if ($event->getCause() === EntityDamageEvent::CAUSE_FALL){
 public function Leave(PlayerQuitEvent $event){
           $player = $event->getPlayer();
         $item = $player->getInventory()->getItemInHand();
-        if($item->getId() == Item::RABBIT_HIDE{
+        if($item->getId() == Item::RABBIT_HIDE){
                 $player->removeEffect(25);
  }
 }
