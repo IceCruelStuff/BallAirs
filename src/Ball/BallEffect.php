@@ -2,7 +2,6 @@
   
 namespace Ball;
 
-//MineralMc New Version plugin for best results ;)
 use pocketmine\event\Listener;
 use pocketmine\Server;
 use pocketmine\plugin\PluginBase;
@@ -32,7 +31,7 @@ class BallEffect extends PluginBase implements Listener
         if ($item->getId() == Item::RABBIT_HIDE) {
             $eff = new EffectInstance(Effect::getEffect(Effect::HASTE), 100 * 99999, 3, true);
             $player->addEffect($eff);
-        } elseif ($player->hasEffect(Effect::LEVITATION) and (!$item->getId() == Item::RABBIT_HIDE)){
+        } elseif ($player->hasEffect(Effect::LEVITATION) && (!$item->getId() == Item::RABBIT_HIDE)){
             $player->removeEffect(25);
         } else {
             $player->removeEffect(25);
