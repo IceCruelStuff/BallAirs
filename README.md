@@ -1,1 +1,2 @@
-PMMP plugin pocketmine for server MC:BE 
+# BallAirs PocketMine-MP plugin
+BallAirs plugin for PocketMine-MP
